@@ -25,10 +25,13 @@
 
       <router-link to="/"><v-btn text>Home</v-btn></router-link>
       <router-link to="/about"><v-btn text>About</v-btn></router-link>
+      <router-link to="/projects"><v-btn text>Projects</v-btn></router-link>
+      <router-link to="/qualifications"
+        ><v-btn text>Qualifications</v-btn></router-link
+      >
     </v-app-bar>
 
     <v-content>
-      <!-- <HelloWorld /> -->
       <router-view />
     </v-content>
   </v-app>
