@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <v-content>
     <h1>This is the projects page</h1>
-  </v-container>
+  </v-content>
 </template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
