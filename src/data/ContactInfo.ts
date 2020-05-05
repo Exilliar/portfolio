@@ -1,9 +1,12 @@
-import ContactInfo from "@/models/ContactInfo";
+import Contact from "@/models/Contact";
 
-const contactInfo: ContactInfo = {
-  phone: "01850238841",
-  email: "email.email@email.com",
-  github: "githubURL",
+const phone: Contact<string> = { type: "Phone", value: "123401725" };
+const email: Contact<string> = {
+  type: "Email",
+  value: "email.email@email.com",
 };
+const gitHub: Contact<string> = { type: "GitHub", value: "githubURL" };
+
+const contactInfo = [phone, email, gitHub];
 
 export default contactInfo;
