@@ -1,6 +1,6 @@
 <template>
   <v-content>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="primary" dark hide-on-scroll>
       <v-toolbar-title>
         <h3>Rory Webber</h3>
       </v-toolbar-title>
