@@ -1,7 +1,7 @@
 <template>
-  <v-content>
+  <v-container>
     <HelloWorld msg="Welcome to Your Vue.js App" />
-  </v-content>
+  </v-container>
 </template>
 
 <script>
